@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('musicc.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("img_parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">PROJECT <span class="w3-hide-small">HELP</span> ME</span>
+  </div>
+</div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+	  <a href="#">Continuing Education</a>
+      <a href="#">Homework/Study</a>
+	  <a href="#">Jobs w/ Education</a>
+	  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Health</a>
+    <div class="dropdown-content">
+	  <a href="#">Symptoms</a>
+      <a href="#">Treatments</a>
+	  <a href="#">Support</a>
+	 
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Hobbies</a>
+    <div class="dropdown-content">
+	  <a href="sports.html">Sports</a>
+      <a href="art.html">Art</a>
+	  <a href="music.html">Music</a>
+	    
+	  
+    </div>
+  </li>
+</ul>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Music</h3>
+  <p class="w3-center"><em>Where words fail, music speaks. 
+  </em></p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-section">
+      <p><b>K.E.A. to Success</b></p><br>
+      <img src="beethoven.jpg" class="w3-circle" alt="Photo of Me" style="width:400px;height:600px; align="left">
+	  </div>
+	  
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-section">
+      <p><b>Have you ever been discourage to pursue something because of your age?</b></p>
+      <p> James Dean once said "Dream as if you'll live forever, live as if you'll die today." Many will interpret that quote in many ways. The way I see it is that you ,as a person, need to dream endlessly, along with that you need to make those dreams count as if today was your last day living. Since, you're in the Music catagory on this webpage, you might think that your're too old to pursue music. Well i'm here to tell you that, that idea is false! Many people have started their music carrer late and heres a list of thosoe people: 2 Chainz,Jay Z,Pharrell Williams,Rachel Platten, and Sheryl Crow. Chainz released a well-received mixtape and then his debut album which debuted at #1 on the Billboard 200 – a month before his 36th birthday. Jay Z first hit was when he was 28 and he’s sold 100 million records (and received 21 Grammy Awards). Williams had a very successful career as a producer (his production duo, The Neptunes, wrote and produced Britney Spears #1 hit “I’m A Slave 4 U” in 2001 when he was 28). Platten just broke out this year in a major way (thanks in part to a Taylor Swift Instagram video of the ladies rocking out to Platten’s song backstage) with “Fight Song.(Age-34)”. Crow  released her debut album at 31 and didn’t get a massive hit until a year later with “All I Wanna Do.”You should never feel as if your not able to do something becuase if your age. If this isn't enough to motivate you then try reasearching more music artists to gain your confience on trying out art, no matter what age you are!</p>
+      <p class="w3-center"><em> Source: http://www.digitalmusicnews.com/2015/08/03/18-musicians-who-made-it-later-in-life/
+	</div>
+  </div>
+</div>
+</script>
+
+</body>
+</html>
+
